@@ -6,9 +6,9 @@
     app:startDestination="@id/homeFragment">
     <fragment
         android:id="@+id/homeFragment"
-        android:name="com.giocode.newsoccer.ui.home.HomeFragment"
+        android:name="com.giocode.newsoccer.ui.home.NewsFragment"
         android:label="fragment_home"
-        tools:layout="@layout/fragment_home" />
+        tools:layout="@layout/fragment_news" />
     <fragment
         android:id="@+id/dashboardFragment"
         android:name="com.giocode.newsoccer.ui.dashboard.DashboardFragment"
